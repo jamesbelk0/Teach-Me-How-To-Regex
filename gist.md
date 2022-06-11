@@ -12,15 +12,8 @@ Below we will breakdown the concepts that make up the previous expression.
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-<!-- - [OR Operator](#or-operator) -->
-<!-- - [Character Classes](#character-classes) -->
-<!-- - [Flags](#flags -->
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-<!-- - [Greedy and Lazy Match](#greedy-and-lazy-match) -->
- <!-- - [Boundaries](#boundaries) -->
-<!-- - [Back-references](#back-references) -->
-<!-- - [Look-ahead and Look-behind](#look-ahead-and-look-behind)  -->
 - [Author](#author)
 
 ## Regex Components
@@ -45,15 +38,6 @@ This gives the user the power to input a wide variety of characters.
 ### Bracket Expressions
 In the example above, there are several bracket expressions or "[]". This is used when we have a range of characters that are to be used and saves us from having ot make a new grouping each time we need a change of characters. 
 - For example [a-z0-9] is calling for all lowercase letters and any number 0-9.
-
-
- <!-- ### Greedy and Lazy Match -->
-
- <!-- ### Boundaries -->
-
- <!-- ### Back-references -->
-
-<!-- ### Look-ahead and Look-behind -->
 
 ## Author
 

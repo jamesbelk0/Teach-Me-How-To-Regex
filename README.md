@@ -2,6 +2,8 @@
 
 Taking a look at regular expressions or Regex! Togeather we will be looking at how to break down regex looking for a matching an email. The characteristics that make up this expression are used to match validations, finding values that match and possibly replace them if needed! 
 
+## Link to Gist File
+- <https://gist.github.com/jamesbelk0/675d53938a619e78d31655651ea59803>
 ## Summary
 
 In this tutorial we will be looking at the regular expression to find an email address. The regex we are looking at is the following: "/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/"
@@ -12,15 +14,8 @@ Below we will breakdown the concepts that make up the previous expression.
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-<!-- - [OR Operator](#or-operator) -->
-<!-- - [Character Classes](#character-classes) -->
-<!-- - [Flags](#flags -->
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-<!-- - [Greedy and Lazy Match](#greedy-and-lazy-match) -->
- <!-- - [Boundaries](#boundaries) -->
-<!-- - [Back-references](#back-references) -->
-<!-- - [Look-ahead and Look-behind](#look-ahead-and-look-behind)  -->
 - [Author](#author)
 
 ## Regex Components
@@ -45,15 +40,6 @@ This gives the user the power to input a wide variety of characters.
 ### Bracket Expressions
 In the example above, there are several bracket expressions or "[]". This is used when we have a range of characters that are to be used and saves us from having ot make a new grouping each time we need a change of characters. 
 - For example [a-z0-9] is calling for all lowercase letters and any number 0-9.
-
-
- <!-- ### Greedy and Lazy Match -->
-
- <!-- ### Boundaries -->
-
- <!-- ### Back-references -->
-
-<!-- ### Look-ahead and Look-behind -->
 
 ## Author
 
